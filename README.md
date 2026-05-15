@@ -21,10 +21,11 @@ Evaluated against all 100 instances of CVRPLIB Set X. Our benchmarks compare GSL
 
 All detailed benchmark results, including execution times, gap percentages, and head-to-head comparisons, are stored in CSV format for analysis:
 
-* 📁 **[Solution Files](./)**: Verified `.sol` output files for all hyper-scale instances.
+* 📦 **[Solution Files Archive](./GSL_SetX_Verified_Solutions.zip)**: A compressed archive containing all 100 verified `.sol` output files.
 * 📁 **[Benchmarks](./Benchmarks)**: 
-  * 📊 [`cw_x_benchmark_master_results.csv`](./Benchmarks/cw_x_benchmark_master_results.csv) (GSL vs. Clarke-Wright)
-  * 📊 [`lns_x_benchmark_master_results.csv`](./Benchmarks/lns_x_benchmark_master_results.csv) (GSL vs. LNS 300-Iter)
+  * 📊 [`Cw_setx_benchmark_result.csv`](./Benchmarks/Cw_setx_benchmark_result.csv) (GSL vs. Clarke-Wright)
+  * 📊 [`Lns_setx_benchmark_result.csv`](./Benchmarks/Lns_setx_benchmark_result.csv) (GSL vs. LNS 300-Iter)
+  * 📝 [`Methodology.md`](./Benchmarks/Methodology.md) (Benchmarking environment and constraints)
 
 ---
 
@@ -49,5 +50,4 @@ Open to professional engagement in the following areas:
 - **Logistics-as-a-Service (LaaS):** Real-time route optimization for enterprise fleets.
 - **High-Precision Modeling:** Custom algorithmic solutions for complex supply chain constraints.
 - **Technical Consultancy:** Large-scale network stress-testing and optimization audits.
-
 - 
